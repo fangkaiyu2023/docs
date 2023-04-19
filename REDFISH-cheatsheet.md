@@ -10,7 +10,7 @@ about the URIs for the members of a resource collection."
 ## Query Redfish Service Root
 
 ```
-export bmc=xx.xx.xx.xx
+export bmc=127.0.0.1：2443
 curl -k https://${bmc}/redfish/v1
 ```
 
